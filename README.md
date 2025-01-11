@@ -1,6 +1,6 @@
 # solarvga
 
-v0.9.0  
+v0.9.1  
 4 January 2025
 
 ## Introduction
@@ -12,7 +12,8 @@ DOSBox).
 
 ## Warning
 
-Version 0.9.0 has a bug and does not work. Look for a future version that fixes this.
+Version 0.9.1 has a bug in its .SYS driver and does not work. The .COM TSR works
+properly.
 
 ## Compatibility
 
@@ -30,7 +31,7 @@ approximately 176 bytes of memory.
 You can add it to `CONFIG.SYS` with something like this:
 
 ```
-DEVICE=A:\SOLARVGA.COM
+[DEVICE](DEVICE)=A:\SOLARVGA.COM
 ```
 
 or to `AUTOEXEC.BAT` like this:
@@ -38,6 +39,9 @@ or to `AUTOEXEC.BAT` like this:
 ```
 @A:\SOLARVGA
 ```
+
+The program can be removed from resident memory by running `SOLARVGA /U`. Note that
+on DOS versions prior to 2.00, the memory cannot be freed when uninstalled.
 
 ## Building
 
