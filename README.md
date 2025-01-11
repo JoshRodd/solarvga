@@ -31,7 +31,7 @@ approximately 176 bytes of memory.
 You can add it to `CONFIG.SYS` with something like this:
 
 ```
-[DEVICE](DEVICE)=A:\SOLARVGA.COM
+DEVICE=A:\SOLARVGA.COM
 ```
 
 or to `AUTOEXEC.BAT` like this:
