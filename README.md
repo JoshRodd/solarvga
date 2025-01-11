@@ -1,7 +1,7 @@
 # solarvga
 
 v0.9.1  
-4 January 2025
+11 January 2025
 
 ## Introduction
 
