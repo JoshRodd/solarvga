@@ -21,9 +21,8 @@ modes like 640x480x16 (mode 12h).
 
 ## Compatibility
 
-Compatible with MS-DOS 1.00 or PC-DOS 1.00 and up alongside a VGA or 100% compatible.
-It does not check if a VGA is installed, although using it will probably result in
-nothing harmful happening.
+Compatible with MS-DOS 1.00 or PC-DOS 1.00 and up alongside a VGA, MCGA, or 100%
+compatible (any PS/2 or any PC with a PS/2 Display Adapter or 100% VGA compatible).
 
 ## Using
 
