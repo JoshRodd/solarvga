@@ -15,6 +15,10 @@ DOSBox).
 Version 0.9.1 has a bug in its .SYS driver and does not work. The .COM TSR works
 properly.
 
+It also has a bug on a genuine IBM VGA (the original PS/2 Display Adapter) where the
+palette goes away after a mode change in text modes; it does work properly in graphics
+modes like 640x480x16 (mode 12h).
+
 ## Compatibility
 
 Compatible with MS-DOS 1.00 or PC-DOS 1.00 and up alongside a VGA or 100% compatible.
